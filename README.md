@@ -56,3 +56,35 @@ Try to recreate your home or workplace for practice on developing your maps! If 
 #### 2.1.5 – Source Code
 This is what your source code in your TADS3 file should look like as of right now.
 ![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.1%20-%20source%20code.PNG "2.1 Source Code")
+
+### 2.2 – Coding Excursus 1: Defining Objects
+
+#### 2.2.1 – Object Definition
+
+Here’s the overall look of what a typical object in TADS3 will look like:
+![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.2%20-%20object%20definition.PNG "object definition")
+
+Notice ‘objectName’ is simply the name of the object. We use this to identify it in throughout our code. The ‘ClassList’ is where our classes go. Classes essentially define the type of object and assign it certain behaviors and properties. Each class has it’s own properties, in this case, the class ‘Room’ has two properties that are called ‘name’ and ‘desc’ (short for description). Notice for the basic type of object, we also end it with a semicolon ‘;’. This is to tell TADS3 that we are ending the object declaration. Of course, objects and classes can contain methods, but we’ll talk about that later.
+
+#### 2.2.2 – An Alternative Way of Writing an Object
+
+Of course, with TADS3 flexibility you are given another way to write your code. You can also encase your properties with a pair of open and closed curly brackets, i.e. “{}”. Here’s an example of that. 
+
+![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.2.2%20alternative%20way.PNG "Alternative Object Declaration")
+
+#### 2.2.3 – Locating Templates
+You can find templates for certain classes in the Adv3Lite Library Reference Manuel. Try to open it in a web browser. When you start the Reference Manuel, this should appear at the top, click on the templates link and it should take you a list titled Templates. 
+
+![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.2.3%20-%20room%20template%20links.PNG "Links")
+
+Scroll down until you find the ‘Room’ link, click on it, and it should take you to the Room Template.
+
+![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.2.3%20-%20room%20template.PNG "Template")
+
+Notice that there are question marks. This means that anything that is defined after the ‘roomTitle’, ‘vocab’, and “desc” is an option park of the template.  
+
+![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.2.3%20-%20room%20template%202.PNG "Template Excecution")
+
+#### 2.2.4 – Single and Double Quote Differentials
+
+You may have noticed that there some of the strings (list of text). The ‘roomTitle’ will always be surrounded by single quotes because this type of string is used for displaying brief text, along with the ‘vocab’ declaration as well, whereas the double quotes are reserved for text that text to have a lot of text, more than two or more sentences. Essentially, strings in single quotes will be associated with properties and the double quotes will surround descriptions.
