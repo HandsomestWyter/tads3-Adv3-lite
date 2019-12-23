@@ -52,3 +52,7 @@ Now that we know mentioned that there is a direction coming out of the bedroom a
 
 #### 2.1.4 Excercise 1
 Try to recreate your home or workplace for practice on developing your maps! If you're feeling adventerous, you can totally make something that's totally original and creative!
+
+#### 2.1.5 – Source Code
+This is what your source code in your TADS3 file should look like as of right now.
+![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.1%20-%20source%20code.PNG "2.1 Source Code")
