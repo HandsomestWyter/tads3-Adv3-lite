@@ -1,9 +1,24 @@
 # TADS 3.1 - ADV3 Lite Library Condensed Notes
 Condensed notation on the TADS 3 library, Adv3lite
 
+## Chapter 1 - The Basics
+### 1.1 What is Interactive Fiction and TADS?
+So, according to [Wikipedia - Interactive Fiction](https://en.wikipedia.org/wiki/Interactive_fiction), Interactive Fiction or IF, is essentially "software simulating environments in which the player uses text commands to control characters and influence the environment. Now why would you want to write IF? Well, the short answer is that if you want to have your own DnD sessions with yourself, then picking up IF is the way to go. However, after a while, you kinda might want to start writing your own IF, which is what this tutorial series is about. Of course, I didn't write the book on TADS 3, but I'm making a video tutorial series (mainly for my own benefit, if I'm being honest with you) because there isn't youtube videos on the subject, and TADS 3 is honestly a really powerful program for developing IF. Of course, you have other programs like [Quest](http://textadventures.co.uk/quest/desktop) , [Twine 2](https://twinery.org/) and many others, but what I really like about TADS 3 is the fact that you can export your project to an excecutable file.
 
-## Chapter 1 (In Progress)
-There is nothing to see here just yet
+### 1.2 Installing TADS 3.1
+Installing TADS 3 is pretty straight forth. Just go to the [TADS Website](http://www.tads.org/) and download the program and install as you normally would any other program.
+
+### 1.3 Installing Adv3-Lite Library
+1. This one is a little more complicated. Once TADS 3.1 is installed, go to [Eric Eve's Adv 3 Lite Library](https://github.com/EricEve/adv3lite) on github, and download the master file. 
+2. In your "Documents" folder on your computer, there is a folder that should be called "TADS 3". In that folder, if one is not created, create a file called "Extenstions".
+3. Export the "adv3lite-master.zip" file into this folder.
+4. Now, open up TADS 3 and make a quick file. It doesn't matter what you use, becuase we're going to make another file after this.
+5. Under the "Tools" tab, select the "Options" options. This will bring up the "Workbench Options" dialog box.
+6. Scroll down, and under the "System" section, click on the "Extensions".
+7. Click on "Browse..." and navigate to "Docments\TADS 3\Extensions", and select that file.
+8. Restart TADS 3 and now make a new project, select a folder where you want to work from, select that "Adv 3 Lite", which now should be available to you, and create your new project, filling out the nessecery information as needed.
+
+Now that you installed the Adv 3 Lite library, you can now move unto the next chapter of these notes.
 
 ## Chapter 2 - Map Making - Rooms
 ### 2.1 Rooms
@@ -26,7 +41,7 @@ As we mentioned above, there is a way out towards the east in the 'bedroom' obje
 
 Notice that we added a "direction" property to our 'landing' object. There are several acceptable directions.
 ##### 8 Compass Directions
-* North
+* North	
 * South
 * East
 * West
