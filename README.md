@@ -61,6 +61,7 @@ Notice that we added a "direction" property to our 'landing' object. There are s
 * Port
 * Fore
 * Aft
+
 Now that we know mentioned that there is a direction coming out of the bedroom and into the landing, let’s go back to the ‘bedroom’ object and set the ‘east’ direction variable to ‘landing’, so that there is a connection between the two objects.
 
 ![pic](https://github.com/reneorionsalmon/tads3lite/blob/master/pics/2.1.3%20-%20your%20very%20second%20room%202.PNG "Updated Code")
