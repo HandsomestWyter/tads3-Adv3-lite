@@ -1,5 +1,5 @@
 # TADS 3.1 - ADV3 Lite Library Condensed Notes
-Condensed notation on the TADS 3 library, Adv3lite. If you want, just got check out the Wiki for a much more organized version of this file.
+Condensed notation on the TADS 3 library, Adv3lite. If you want, just got check out the Wiki for a much more organized version of this file. If you want a more organized version of this documentation, I suggest that you check out the wiki for this project in the mean time. I will be working to condense this into a PDF for your use, so please be patient! 
 
 ## Chapter 1 - The Basics
 ### 1.1 What is Interactive Fiction and TADS?
