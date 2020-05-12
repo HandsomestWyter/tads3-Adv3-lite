@@ -104,3 +104,64 @@ Notice that there are question marks. This means that anything that is defined a
 #### 2.2.4 – Single and Double Quote Differentials
 
 You may have noticed that there some of the strings (list of text). The ‘roomTitle’ will always be surrounded by single quotes because this type of string is used for displaying brief text, along with the ‘vocab’ declaration as well, whereas the double quotes are reserved for text that text to have a lot of text, more than two or more sentences. Essentially, strings in single quotes will be associated with properties and the double quotes will surround descriptions.
+
+### 2.3 – Rooms and Regions
+
+#### 2.3.1 – Customizing Rooms: Dark Rooms
+
+In adv3lite, there is only one time of room, however there are things that we can do to customize our rooms. Most room start lit, however we can make them dark. You can do this by defining the “isLit” property as “nil”, or simply the room isn’t lit.
+![oic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.1%20-%20is%20lit%20property.PNG)
+If your character doesn’t have a light source, you won’t see anything. We’ll discuss Darkness and Light further in chapter 10.
+If you plan to have lots of dark rooms in your game, you may want to define a “DarkRoom” class.
+
+![pic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.1%20-%20dark%20room%20class.PNG)
+
+You can make defintions such as:
+
+![pic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.1%20-%20inheriteince%20definitions.PNG)
+
+This takes advantage of something in programming called ‘inheritance’. In object-oriented programming, inheritance is the mechanism of basing an object or class on a previously defined class.The new object, or class, in this case, will inherit all the properties from the predefined class “Room”.
+
+#### 2.3.2 – Assigning Rooms to Regions
+You can also assign rooms to a Region. A Region is a set of rooms that belong together in some way.
+
+**Examples:**
+* Rooms of a House
+* Downstairs Rooms
+* Upstairs Rooms
+* Outside Rooms
+
+Rooms can belong to multiple regions. Regions can also be assigned to regions. You can have a hall that is in the downstairs region of a myHome region:
+
+![pic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.2%20-%20hallway%20region%20example.PNG)
+
+#### 2.3.3 – Why Use Regions?
+
+Regions could be used for a variety of things. You can test whether the player, or something is in a region. You can restrict what happens in a region. Example: only use directions like ‘port’, ‘starboard’, fore, and ‘aft’ when you’re on a ship.
+
+#### 2.3.4 – The cannotGoThatWayMsg
+This property would appear if the player tried to go in any direction that we haven’t defined an exit for.
+
+![pic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.4%20-%20cannotGoThatWayMsg.PNG)
+
+Notice that we are using backslash (\) immediate before a single-quote marks that we want to appear within a single-quoted string property.
+
+Here's an alternative to that:
+
+![pic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.4%20-%20cannotGoThatWayMsg%20alternative.PNG)
+
+This avoids the need to type the backslash, which can get awkward at times.
+
+#### 2.3.5 – Exercise 2
+
+Try to construct a map using the properties that were introduced in this chapter!
+
+**Examples:**
+* A house and part of its garden
+
+Try assigning some of these parts to appropriate regions.
+
+#### 2.3.6 – My Map
+Here’s an example of what you might want to do using these more advanced properties!
+
+![pic](https://github.com/reneorionsalmon/tads3-Adv3-lite/blob/master/pics/Section%203/2.3.6%20-%20my%20map.PNG)
