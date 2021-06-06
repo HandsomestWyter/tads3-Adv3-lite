@@ -1,5 +1,5 @@
 # TADS 3.1 - ADV3 Lite Library Condensed Notes
-Condensed notation on the TADS 3 library, Adv3lite. If you want, just got check out the Wiki for a much more organized version of this file. If you want a more organized version of this documentation, I suggest that you check out the [wiki](https://github.com/reneorionsalmon/tads3-Adv3-lite/wiki) for this project in the mean time. I will be working to condense this into a PDF for your use, so please be patient! 
+Condensed notation on the TADS 3 library, Adv3lite. If you want a more organized version of this documentation, I suggest that you check out the [wiki](https://github.com/reneorionsalmon/tads3-Adv3-lite/wiki) for this project in the mean time. I will be working to condense this into a PDF for your use, so please be patient! 
 
 # Why Am I Doing This?
 Well, to put it simply, the manual, though extremely well-detailed and polished, was too indepth, and explained in 20 some pages what could be explained in about 5, so because I believe in "working smarter" and "not harder", I've taken the liberty of condensing some of the manual for faster learning of TADS 3. However, I am planning on making my own engine in C# as opposed to C++, like this IDE was design in the future. For now, we deal with this awesome indepth text based adventure IDE!
